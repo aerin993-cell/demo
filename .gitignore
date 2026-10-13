@@ -1,0 +1,40 @@
+# Базы данных и файлы баз 1С
+*.1CD
+*.1cd
+
+# Служебные файлы платформы (файловая база)
+1Cv8.lgf
+1Cv8.pfl
+1Cv8.log
+*.lgf
+*.lgd
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+~$*
+*.~*
+
+# Сборка и выгрузки
+build/
+dist/
+*.cf
+*.cfu
+*.cfe
+*.epf
+*.erf
+
+# EDT (Eclipse-based среда разработки 1С)
+.metadata/
+bin/
+*.ldb
+
+# OneScript
+oscript_modules/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
